@@ -1,9 +1,9 @@
 <div align="center">
-  <a href="https://github.com/sfxfs/sub-navi"><img src="./doc/logo.png" alt="logo"></a>
-  <a href="https://github.com/sfxfs/sub-navi"><h1>SUB-NAVI</h1></a>
+  <a href="https://github.com/JMU-Underwater/sub-navi"><img src="./doc/logo.png" alt="logo"></a>
+  <a href="https://github.com/JMU-Underwater/sub-navi"><h1>SUB-NAVI</h1></a>
 </div>
 
-[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/sfxfs/sub-navi) ![GitHub License](https://img.shields.io/github/license/sfxfs/sub-navi) ![GitHub repo size](https://img.shields.io/github/repo-size/sfxfs/sub-navi) ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/sfxfs/sub-navi)
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/JMU-Underwater/sub-navi) ![GitHub License](https://img.shields.io/github/license/JMU-Underwater/sub-navi) ![GitHub repo size](https://img.shields.io/github/repo-size/JMU-Underwater/sub-navi) ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/JMU-Underwater/sub-navi)
 
 [ 中文 | [English](README_EN.md) ]
 
@@ -49,14 +49,17 @@ cmake -B build -DCMAKE_BUILD_TYPE=Release -DCMAKE_C_COMPILER=arm-rockchip830-lin
 
 项目主要有三个根目录的文件夹
 
-- `3rd` 存放了第三方库和通用的代码
-- `config-header` 存放了全局配置头文件
-- `user` 存放用户项目源代码
+| 名称          | 用途                 |
+| ------------- | -------------------- |
+| 3rd           | 第三方库和通用的代码 |
+| config-header | 全局配置和类型头文件 |
+| user          | 用户项目代码         |
 
 `user` 文件夹下主要有几个功能模块
 
-- `control` 为机器人控制算法
-- `csv-json-config-sys` 为程序配置系统代码
-- `json-rpc-server` 为 JSON-RPC 服务端应用代码
-- `peripheral` 为相关外设驱动
-- `protobuf-commu` 为与 SUB-MASTER 通信代码
+| 名称                | 用途                   |
+| ------------------- | ---------------------- |
+| control             | 机器人姿态控制算法     |
+| csv-json-config-sys | 配置管理系统           |
+| peripheral          | 外设驱动相关代码       |
+| protobuf-commu      | 与 SUB-MASTER 通信代码 |
