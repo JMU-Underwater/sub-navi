@@ -9,7 +9,7 @@
 
 ## 项目介绍
 
-本项目（SUB-NAVI）是基于 Linux 平台的通用型水下机器人控制程序，本项目需要搭配 [ESP-SUB-MASTER](https://github.com/sfxfs/esp-sub-master) 和 [ROV-HOST](https://github.com/bohonghuang/rov-host) 使用，本软件测试基于硬件平台 [Underwater-Vehicle-Electrical-Control-System](https://github.com/SFerret/Underwater-Vehicle-Electrical-Control-System)。
+本项目（SUB-NAVI）是基于 Linux 平台的通用型水下机器人控制程序，本项目需要搭配 [ESP-SUB-MASTER](https://github.com/JMU-Underwater/esp-sub-master) 和 [ROV-HOST](https://github.com/JMU-Underwater/rov-host) 使用，本软件测试基于硬件平台 [Underwater-Vehicle-Electrical-Control-System](https://github.com/JMU-Underwater/Underwater-Vehicle-Electrical-Control-System)。
 
 系统架构连接图如下：
 

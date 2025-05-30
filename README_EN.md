@@ -9,7 +9,7 @@
 
   ## Project Introduction
 
-  This project (SUB-NAVI) is a general-purpose underwater robot control program based on the Linux platform. It requires integration with [ESP-SUB-MASTER](https://github.com/sfxfs/esp-sub-master) and [ROV-HOST](https://github.com/bohonghuang/rov-host) for use. The software has been tested on the hardware platform [Underwater-Vehicle-Electrical-Control-System](https://github.com/SFerret/Underwater-Vehicle-Electrical-Control-System).
+  This project (SUB-NAVI) is a general-purpose underwater robot control program based on the Linux platform. It requires integration with [ESP-SUB-MASTER](https://github.com/JMU-Underwater/esp-sub-master) and [ROV-HOST](https://github.com/JMU-Underwater/rov-host) for use. The software has been tested on the hardware platform [Underwater-Vehicle-Electrical-Control-System](https://github.com/JMU-Underwater/Underwater-Vehicle-Electrical-Control-System).
 
   The system architecture connection diagram is as follows:
 
